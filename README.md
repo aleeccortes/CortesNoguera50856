@@ -46,5 +46,5 @@ cambiar entrada.txt por alguna de las siguientes alternativas:
 -input2.txt
 -incorrect1.txt
 -incorrect2.txt
-El el caso de que no se lea el archivo de texto de entrada en es línea deberá ingresarlo por consola.
+El el caso de que no se lea el archivo de texto de entrada en esa línea deberá ingresarlo por consola.
 
