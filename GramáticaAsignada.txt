@@ -1,0 +1,54 @@
+El enunciado del ejercicio es asi
+Se proporciona a continuacion una gramatica en notacion ANSI-C que describe una porcion reducida y adaptada del lenguaje C.
+ programa: declaraciones;
+ declaraciones:
+ declaración
+ |declaraciones declaración
+ ;
+ declaracion: tipo identificador '(' parametros '(' '{' cuerpo '}';
+ tipo:
+ 'int'
+ |'float'
+ |'char'
+ ;
+ identificador:
+ letra(letra|digito)*
+;
+ parametros:
+ parámetro
+ |parametros ',' parámetro
+;
+ parametro:
+ tipo identificador
+;
+ cuerpo:
+ instrucción
+| cuerpo instrucción
+;
+ instruccion:
+ retorno
+;
+ retorno
+ 'return' expresion ';'
+;
+ expresion:
+ expresion '+' termino
+| expresion '-' termino
+| termino
+;
+ termino:
+ termino '*' factor
+| termino '/' factor
+| factor
+;
+ factor:
+'(' expresion ')'
+| digito
+| identificador
+;
+ letra:
+'a' … 'z'
+|'A' … 'Z'
+;
+ digito:
+'0' … '9'
