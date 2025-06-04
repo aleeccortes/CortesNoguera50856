@@ -20,7 +20,7 @@ Requisitos
 Instalación y uso
 	1. Clonar el repositorio:
 
-git clone https://github.com/aleeccortes/cortes50856.git
+git clone https://github.com/aleeccortes/CortesNoguera50856.git
 cd "(direccion de la carpeta donde va abrir el proyecto)"
 
 	
