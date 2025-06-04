@@ -40,8 +40,11 @@ En la línea:
  
  input = fs.readFileSync("input.txt", "utf8");
 
+
 cambiar entrada.txt por alguna de las siguientes alternativas:
 
 -input2.txt
 -incorrect1.txt
 -incorrect2.txt
+El el caso de que no se lea el archivo de texto de entrada en es línea deberá ingresarlo por consola.
+
